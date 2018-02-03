@@ -537,6 +537,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="auto_forward.vi" Type="VI" URL="../auto/auto_forward.vi"/>
 			<Item Name="auto_turn.vi" Type="VI" URL="../auto/auto_turn.vi"/>
+			<Item Name="Climber.vi" Type="VI" URL="../subsystems/climber/Climber.vi"/>
 			<Item Name="driveCode.vi" Type="VI" URL="../subsystems/drive/driveCode.vi"/>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
