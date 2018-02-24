@@ -58,5 +58,5 @@ ID | Name
 ### Start Position
 ID | Name
 ---|---
-0 | right
-1 | left
+0 | left
+1 | right
