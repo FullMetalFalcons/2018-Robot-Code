@@ -32,3 +32,26 @@ Autonomous Position PID Constant:
 - `rightPos_P` - P constant for right position
 - `rightPos_I` - I constant for right position
 - `rightPos_D` - D constant for right position
+
+
+### Autonomous Modes
+ID | Name
+---|---
+0 | Do nothing
+1 | Cross baseline short
+2 | Cross baseline long
+3 | Hot from middle
+4 | If hot 2 cubes, else 1 cube
+5 | If hot 1 cube, else 1 cube
+6 | Exchange from middle
+7 | Forward to switch, score if hot
+8 | Exchange from outside
+9 | If hot 2 cubes, else baseline
+10 | If hot 3 cubes, else baseline
+11 | Exchange and hot switch
+
+### Start Position
+ID | Name
+---|---
+0 | right
+1 | left
