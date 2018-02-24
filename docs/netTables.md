@@ -25,18 +25,13 @@ Drive Velocity PID Constants:
 - `rightDrive_D` - D constant for the right drive
 - `rightDrive_F ` - F constant for the right drive
 
-Autonomous Position PID Constants:
+Autonomous Position PID Constant:
 - `leftPos_P` - P constant for left position
 - `leftPos_I` - I constant for left position
 - `leftPos_D` - D constant for left position
 - `rightPos_P` - P constant for right position
 - `rightPos_I` - I constant for right position
 - `rightPos_D` - D constant for right position
-
-Autonomous Turn PID Constants:
-- `turn_P` - P constant for turning
-- `turn_I` - I constant for turning
-- `turn_D` - D constant for turning
 
 
 ### Autonomous Modes
@@ -58,5 +53,5 @@ ID | Name
 ### Start Position
 ID | Name
 ---|---
-0 | left
-1 | right
+0 | right
+1 | left
