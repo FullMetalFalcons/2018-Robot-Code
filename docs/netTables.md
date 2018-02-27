@@ -33,6 +33,16 @@ Autonomous Position PID Constant:
 - `rightPos_I` - I constant for right position
 - `rightPos_D` - D constant for right position
 
+Ramping Constants:
+- `turnS1` - Top turning speed (units: ticks/100ms, should be 1 - 4200)
+- `turnD2` - Angle from target at which to ramp down to S2 (degrees)
+- `turnS2` - Bottom ramp speed (units: ticks/100ms, should be 1 - 4200)
+
+- `driveS1` - Top drive forward speed (units: ticks/100ms, should be 1 - 4200)
+- `driveD2` - Distance from target at which to ramp down to S2 (degrees)
+- `driveS2` - Middle ramp speed (units: ticks/100ms, should be 1 - 4200)
+- `driveD3` - Distance from target at which to ramp down to S3 (degrees)
+- `driveS3` - Bottom ramp speed (units: ticks/100ms, should be 1 - 4200)
 
 ### Autonomous Modes
 ID | Name
