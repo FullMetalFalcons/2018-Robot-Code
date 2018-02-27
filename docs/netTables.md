@@ -37,7 +37,6 @@ Ramping Constants:
 - `turnS1` - Top turning speed (units: ticks/100ms, should be 1 - 4200)
 - `turnD2` - Angle from target at which to ramp down to S2 (degrees)
 - `turnS2` - Bottom ramp speed (units: ticks/100ms, should be 1 - 4200)
-
 - `driveS1` - Top drive forward speed (units: ticks/100ms, should be 1 - 4200)
 - `driveD2` - Distance from target at which to ramp down to S2 (degrees)
 - `driveS2` - Middle ramp speed (units: ticks/100ms, should be 1 - 4200)
