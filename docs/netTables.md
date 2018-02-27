@@ -2,6 +2,9 @@
 
 This file documents all the variables being sent through NT from the robot to the dashboard and back.
 
+## Robot --> Dashboard
+- `gyro` - Gyro heading of the robot
+
 ## Dashboard --> Robot
 
 Tele-Op Constants:
