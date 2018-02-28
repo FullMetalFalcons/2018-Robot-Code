@@ -45,8 +45,6 @@ Ramping Constants:
 - `driveS2` - Middle ramp speed (units: ticks/100ms, should be 1 - 4200)
 - `driveD3` - Distance from target at which to ramp down to S3 (degrees)
 - `driveS3` - Bottom ramp speed (units: ticks/100ms, should be 1 - 4200)
-- `driveRampUpS` - Ramp up speed (units: ticks/100ms, should be 1 - 4200)
-- `driveRampUpD` - Ramp up distance (units: ticks (4200 = 18.8"))
 
 ### Autonomous Modes
 ID | Name
